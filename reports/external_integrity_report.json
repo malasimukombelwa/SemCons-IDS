@@ -1,0 +1,22 @@
+{
+  "base_utils_version": "2026.07.26-v6-self-contained-resumable",
+  "base_utils_sha256": "52b335d46a06a371935fe4469afbd5763a55768e13f93d9c5c645e372362c57f",
+  "extension_version": "2026.07.26-v10-final-posthoc-optimization",
+  "extension_sha256": "c47e30e34fee2d86dd272b77116d4c297ed793789cc56352103f6cae423e8969",
+  "external_directory": "/content/drive/MyDrive/these_llm/SemCons_IDS_MiniLM_ModernBERT_v8/external_validation_cse_cic_ids2018_v6",
+  "completed_runs": 12,
+  "expected_runs": 12,
+  "result_rows": 48,
+  "strict_zero_shot_preserved": true,
+  "target_meta_adaptation_is_supervised": true,
+  "disjoint_target_meta_partitions": {
+    "meta_train": 0.35,
+    "model_select": 0.2,
+    "cal_fit": 0.15,
+    "cal_select": 0.1,
+    "conformal_cal": 0.1,
+    "conformal_tune": 0.1
+  },
+  "operational_semantic_numeric_separated": true,
+  "marginal_and_mondrian_conformal_tuned": true
+}

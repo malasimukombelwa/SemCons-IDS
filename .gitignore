@@ -1,0 +1,34 @@
+# No raw data or patient/network-flow records
+*.csv
+*.parquet
+*.feather
+data/
+datasets/
+# Model weights, checkpoints, downloaded caches
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.joblib
+*.pkl
+models/
+checkpoints/
+hf_cache/
+cache/
+# Credentials and ephemeral output
+.env
+.env.*
+!.env.example
+*token*
+*.pem
+*.key
+credentials.json
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+logs/
+outputs/
+wandb/
+*.log
+.vscode/

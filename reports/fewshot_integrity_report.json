@@ -1,0 +1,18 @@
+{
+  "base_utils_version": "2026.07.26-v6-self-contained-resumable",
+  "base_utils_sha256": "52b335d46a06a371935fe4469afbd5763a55768e13f93d9c5c645e372362c57f",
+  "extension_version": "2026.07.26-v10-final-posthoc-optimization",
+  "extension_sha256": "c47e30e34fee2d86dd272b77116d4c297ed793789cc56352103f6cae423e8969",
+  "completed_fewshot_source": "/content/drive/MyDrive/these_llm/SemCons_IDS_MiniLM_ModernBERT_v8/fewshot_cse_cic_ids2018_v6",
+  "external_source": "/content/drive/MyDrive/these_llm/SemCons_IDS_MiniLM_ModernBERT_v8/external_validation_cse_cic_ids2018_v6",
+  "completed_cases": 36,
+  "expected_cases": 36,
+  "result_rows": 108,
+  "branch_retraining_performed": false,
+  "existing_36_models_reused": true,
+  "operational_semantic_numeric_separated": true,
+  "rare_class_aware_selection": true,
+  "vector_scaling_considered": true,
+  "confidence_stacking_considered": true,
+  "marginal_and_mondrian_conformal_tuned": true
+}

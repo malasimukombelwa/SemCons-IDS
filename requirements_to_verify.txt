@@ -1,0 +1,14 @@
+# Non-pinned inferred dependencies. Verify the exact run environment before publishing a reproducibility claim.
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+torch
+transformers
+peft
+accelerate
+joblib
+matplotlib
+seaborn
+shap
